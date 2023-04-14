@@ -4,7 +4,7 @@
   "displayName": "transform-css-logic",
   "icon": "images/R.jpeg",
   "description": "css properties to logical properties",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.77.0"
   },
