@@ -26,28 +26,21 @@ export function activate(context: vscode.ExtensionContext) {
 		const doc = editor.document;
 		const text = doc.getText();
 
-		console.log(`1`);
 		const result = await postcss([
 			postcssRtlLogicalProperties(),
 		]).process(text, { syntax });
-		console.log(`2`);
 
 		const startPosition = new vscode.Position(0, 0);
         const endPosition = new vscode.Position(doc.lineCount + 1, 0);
 		const range = new vscode.Range(startPosition, endPosition);
 		editor.edit(editBuilder => {
 			try {
-				const a = result.css;
-				console.log(`result.css====>,1`, a);
-				
 				editBuilder.replace(range, result.css);
 			} catch (err) {
-				console.log(`err ====>`, err);
 				vscode.window.showInformationMessage('Unknown error from transform-css-logic!');
 			}
 			
 		}).then(success => {
-			console.log(`...args`, ...arguments);
 			// 返回是否应用修改
 			if (success) {
 			  console.log('Edit applied!');
