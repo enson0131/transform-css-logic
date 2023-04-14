@@ -1,6 +1,6 @@
 {
   "name": "transform-css-logic",
-  "publisher": " transform-css-logic",
+  "publisher": "transform-css-logic",
   "displayName": "transform-css-logic",
   "description": "css properties to logical properties",
   "version": "0.0.1",
@@ -66,6 +66,7 @@
   },
   "dependencies": {
     "postcss": "^8.4.21",
+    "postcss-less": "^6.0.0",
     "postcss-rtl-logical-properties": "^1.0.7"
   }
 }
