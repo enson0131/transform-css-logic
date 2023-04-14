@@ -7,6 +7,8 @@
  - window: "ctrl + t",
  - mac: "cmd + t",
 
+![屏幕录制2023-04-14 09.42.55.gif](https://s2.loli.net/2023/04/14/AShmeaQpsXl1DKG.gif)
+
 此时就会将 CSS 文件自动格式化，并将 CSS 属性修改成逻辑属性
         
 **Enjoy!**
