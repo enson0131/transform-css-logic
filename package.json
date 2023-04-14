@@ -2,6 +2,7 @@
   "name": "transform-css-logic",
   "publisher": "transform-css-logic",
   "displayName": "transform-css-logic",
+  "icon": "images/R.jpeg",
   "description": "css properties to logical properties",
   "version": "1.0.0",
   "engines": {
