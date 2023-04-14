@@ -3,7 +3,7 @@
   "publisher": "transform-css-logic",
   "displayName": "transform-css-logic",
   "description": "css properties to logical properties",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.77.0"
   },
